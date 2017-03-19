@@ -13,3 +13,5 @@ foreach ($ws in $wb.Worksheets)
 }
 $wb.Close(0)
 $xlApp.Quit()
+
+#powershell -ExecutionPolicy ByPass -File C:\\Users\\502362723\\Desktop\\xlsbtoxlsx.ps1 'C:\Users\502362723\Desktop\10-Mar-2017-CPS-Report-FW-10_LV' Set-ExecutionPolicy RemoteSigned
